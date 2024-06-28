@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+}
+li { list-style: none; }
+
+a, p, ul, span, h1, h2 {
+    color: #2c2d31;
+}
+a { font-weight: bold; text-decoration: none; }
+body {
+    padding: 5% 10%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.greet {
+    margin-bottom: 70px;
+}
+.navbar ul {
+    width: 80%;
+    margin: auto;
+    display: flex; 
+    justify-content: space-around;
+    font-size: 24px;
+}
+.navbar li {
+    
+}
+.navbar ul {
+    border: 1px solid #2c2d31;
+    padding: 15px 15px;
+    border-radius: 27px;
+}
